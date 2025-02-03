@@ -3,7 +3,7 @@
 Uma aplicação web simples para organizar sorteios de amigo secreto.
 
 ## Demo
-Você pode acessar uma versão live do projeto aqui: [Sorteio de Amigo Secret](https://fernandabitten.github.io/g8-one-alura-amigo-secreto)
+Você pode acessar uma versão online do projeto aqui: [Sorteio de Amigo Secreto](https://fernandabitten.github.io/g8-one-alura-amigo-secreto)
 
 ## Funcionalidades
 
