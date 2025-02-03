@@ -164,25 +164,37 @@ ul {
 .button-restart {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 10px;
   width: 100%;
   padding: 10px 40px;
   color: var(--color-white);
   background-color: var(--color-button);
   font-size: 16px;
+  white-space: nowrap;
 }
 
 .button-draw img,
 .button-restart img {
-  margin-right: 40px;
+  margin-right: 0;
+  width: 24px;
+  height: 24px;
 }
 
-.button-restart img {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
-  margin-right: 10px;
-}
-
+@media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+      width: 100%;
+      gap: 1em;
+    }
+  
+    .button-draw,
+    .button-restart {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
 /* Mensagem de erro */
 #mensagemErro {
   color: #cc0033;
